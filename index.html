@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badminton Player Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Malhugandu Academy</h1>
+    </header>
+    
+    <section class="profiles">
+         <!-- Player 1 Profile -->
+        <div class="profile-card" id="player1">
+          <img src="images/rifaz.jpg" alt="Player 1">
+          <h2 class="name">Abdulla Rifaz</h2>
+          <p class="country">Country: Maldives</p>
+          <p class="rank">BAM-ID: 5605</p>
+          <button class="more-info-btn" onclick="showMoreInfo('player1')">More Info</button>
+          <div class="more-info hidden" id="player1-info">
+              <p><strong>Age:</strong> 25</p>
+              <p><strong>Achievements:</strong> Olympic Gold Medalist</p>
+              <p><strong>Style:</strong> Aggressive Attacker</p>
+          </div>
+      </div>
+
+        <!-- Player 2 Profile -->
+        <div class="profile-card" id="player2">
+          <img src="images/shakeeb.JPG" alt="Player 2">
+          <h2 class="name">Ibrahim Shakeeb</h2>
+          <p class="country">Country: Maldives</p>
+          <p class="rank">BAM-ID: 5602</p>
+          <button class="more-info-btn" onclick="showMoreInfo('player2')">More Info</button>
+          <div class="more-info hidden" id="player2-info">
+              <p><strong>Age:</strong> 36</p>
+              <p><strong>Achievements:</strong> World Champion</p>
+              <p><strong>Style:</strong> Defensive</p>
+          </div>
+      </div>
+
+          <!-- Player 3 Profile -->
+           <div class="profile-card" id="player3">
+             <img src="images/afoo.jpg" alt="Player 3">
+             <h2 class="name">Ahmed Thauseef</h2>
+            <p class="country">Country: Maldives</p>
+            <p class="rank">BAM-ID: 5607</p>
+            <button class="more-info-btn" onclick="showMoreInfo('player3')">More Info</button>
+            <div class="more-info hidden" id="player3-info">
+              <p><strong>Age:</strong> 36</p>
+              <p><strong>Achievements:</strong> World Champion</p>
+              <p><strong>Style:</strong> Deceptive Player</p>
+          </div>
+       </div>
+
+          <!-- Player 4 Profile -->
+          <div class="profile-card" id="player4">
+              <img src="images/samir.JPG" alt="Player 4">
+              <h2 class="name">Ahmed Samir</h2>
+              <p class="country">Country: Maldives</p>
+              <p class="rank">BAM-ID: 5604</p>
+              <button class="more-info-btn" onclick="showMoreInfo('player4')">More Info</button>
+              <div class="more-info hidden" id="player4-info">
+                <p><strong>Age:</strong> 36</p>
+                <p><strong>Achievements:</strong> World Champion</p>
+                <p><strong>Style:</strong> Net Player</p>
+              </div>
+          </div>
+
+          <!-- Player 5 Profile -->
+          <div class="profile-card" id="player5">
+            <img src="images/fayaz.JPG" alt="Player 5">
+            <h2 class="name">Hassan Fayaz</h2>
+            <p class="country">Country: Maldives</p>
+            <p class="rank">BAM-ID: 5638</p>
+            <button class="more-info-btn" onclick="showMoreInfo('player5')">More Info</button>
+            <div class="more-info hidden" id="player5-info">
+              <p><strong>Age:</strong> 36</p>
+              <p><strong>Achievements:</strong> World Champion</p>
+              <p><strong>Style:</strong> All-Rounder</p>
+            </div>
+        </div>
+
+        <!-- Player 6 Profile -->
+        <div class="profile-card" id="player6">
+          <img src="images/saleem.JPG" alt="Player 6">
+          <h2 class="name">Mohamed Saleem</h2>
+          <p class="country">Country: Maldives</p>
+          <p class="rank">BAM-ID: 5606</p>
+          <button class="more-info-btn" onclick="showMoreInfo('player6')">More Info</button>
+          <div class="more-info hidden" id="player6-info">
+            <p><strong>Age:</strong> 36</p>
+            <p><strong>Achievements:</strong> World Champion</p>
+            <p><strong>Style:</strong> Offensive Player</p>
+          </div>
+      </div>
+
+      <!-- Player 7 Profile -->
+      <div class="profile-card" id="player7">
+        <img src="images/hussain.JPG" alt="Player 7">
+        <h2 class="name">Hussain Rasheed</h2>
+        <p class="country">Country: Maldives</p>
+        <p class="rank">BAM-ID: 5603</p>
+        <button class="more-info-btn" onclick="showMoreInfo('player7')">More Info</button>
+        <div class="more-info hidden" id="player7-info">
+          <p><strong>Age:</strong> 36</p>
+          <p><strong>Achievements:</strong> World Champion</p>
+          <p><strong>Style:</strong> Precision Style</p>
+        </div>
+    </div>
+
+    <!-- Player 8 Profile -->
+    <div class="profile-card" id="player8">
+      <img src="images/ahsan.JPG" alt="Player 8">
+      <h2 class="name">Ahmed Ahsahn</h2>
+      <p class="country">Country: Maldives</p>
+      <p class="rank">BAM-ID: 4396</p>
+      <button class="more-info-btn" onclick="showMoreInfo('player8')">More Info</button>
+      <div class="more-info hidden" id="player8-info">
+        <p><strong>Age:</strong> 36</p>
+        <p><strong>Achievements:</strong> World Champion</p>
+        <p><strong>Style:</strong> Control Player</p>
+      </div>
+  </div>
+
+  <!-- Player 9 Profile -->
+  <div class="profile-card" id="player9">
+    <img src="images/suvey.JPG" alt="Player 9">
+    <h2 class="name">Maryam Suveydha</h2>
+    <p class="country">Country: Maldives</p>
+    <p class="rank">BAM-ID: 2722</p>
+    <button class="more-info-btn" onclick="showMoreInfo('player9')">More Info</button>
+    <div class="more-info hidden" id="player9-info">
+      <p><strong>Age:</strong> 36</p>
+      <p><strong>Achievements:</strong> World Champion</p>
+      <p><strong>Style:</strong> Offensive Player</p>
+    </div>
+</div>
+
+<!-- Player 10 Profile -->
+<div class="profile-card" id="player10">
+  <img src="images/ismail.JPG" alt="Player 10">
+  <h2 class="name">Ismail Hussain</h2>
+  <p class="country">Country: Maldives</p>
+  <p class="rank">BAM-ID: 5750</p>
+  <button class="more-info-btn" onclick="showMoreInfo('player10')">More Info</button>
+  <div class="more-info hidden" id="player10-info">
+    <p><strong>Age:</strong> 36</p>
+    <p><strong>Achievements:</strong> World Champion</p>
+    <p><strong>Style:</strong> Offensive Player</p>
+  </div>
+</div>
+
+<!-- Player 11 Profile -->
+<div class="profile-card" id="player11">
+  <img src="images/shameem.jpg" alt="Player 11">
+  <h2 class="name">Ali Shameem</h2>
+  <p class="country">Country: Maldives</p>
+  <p class="rank">BAM-ID: 5640</p>
+  <button class="more-info-btn" onclick="showMoreInfo('player11')">More Info</button>
+  <div class="more-info hidden" id="player11-info">
+    <p><strong>Age:</strong> 36</p>
+    <p><strong>Achievements:</strong> World Champion</p>
+    <p><strong>Style:</strong> Offensive Player</p>
+  </div>
+</div>
+
+<!-- Player 12 Profile -->
+<div class="profile-card" id="player12">
+  <img src="images/rilwan.jpg" alt="Player 12">
+  <h2 class="name">Rilwan Shareef</h2>
+  <p class="country">Country: Maldives</p>
+  <p class="rank">BAM-ID: 4397</p>
+  <button class="more-info-btn" onclick="showMoreInfo('player12')">More Info</button>
+  <div class="more-info hidden" id="player12-info">
+    <p><strong>Age:</strong> 36</p>
+    <p><strong>Achievements:</strong> World Champion</p>
+    <p><strong>Style:</strong> Offensive Player</p>
+  </div>
+</div>
+
+    </section>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <h2>Chatbot</h2>
+            <button id="close-chatbot" onclick="toggleChat()">X</button>
+        </div>
+        <div id="chat-window">
+            <div id="chat-content"></div>
+        </div>
+        <div id="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <button id="open-chatbot-btn" onclick="toggleChat()">Chat with us</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
